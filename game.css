@@ -1,0 +1,65 @@
+body {
+    background-color:#1e1e1e;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
+#rgb {
+    font-size: 3rem;
+}
+
+#question {
+    font-size: 1.5rem;
+}
+
+.round {
+    display: inline-block;
+    width: 20%;
+    padding-top: 20%;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 15px;
+    margin: 20px 5px;
+}
+
+.round:hover {
+    border:5px solid black;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.newcolor {
+    margin: auto;
+    display: flex; /* 让图标和文字并排显示 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: center; /* 水平居中对齐 */
+    gap: 8px; /* 图标和文字之间的间距 */
+    font-size: 120%; /* 图标和文字的统一大小 */
+    border-radius: 25px; /* 圆角按钮 */
+    width: 23%; /* 按钮宽度 */
+    padding: 2%; /* 内边距 */
+    background-color: white; /* 背景颜色 */
+    border: none; /* 去掉默认边框 */
+    cursor: pointer; /* 鼠标悬停样式 */
+    text-align: center; /* 文本对齐方式 */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
+}
+  
+.newcolor i {
+  font-size: 0.8em; /* 图标大小（可与文字保持一致） */
+}
+ 
+.newcolor:hover {
+  background-color: #f0f0f0; /* 悬停时的背景色 */
+  color: #4a90e2; /* 悬停时的文字和图标颜色 */
+}
